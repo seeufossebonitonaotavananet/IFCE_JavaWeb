@@ -4,10 +4,27 @@
 		<title></title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device.width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="assets/css/login.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/boostrap.min.css">
+		<link href="assets/css/login.css" rel="stylesheet">
+		<link rel="stylesheet"	 href="assets/css/bootstrap.min.css">
 	</head>
 	<body>
+		<div class="container">
+
+		      <form class="form-signin">
+		        <h2 class="form-signin-heading">Por favor entre com o seu Login/Senha:</h2>
+		        <label for="inputEmail" class="sr-only">E-mail:</label>
+		        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+		        <label for="inputPassword" class="sr-only">Senha:</label>
+		        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+		        <div class="checkbox">
+		          <label>
+		            <input type="checkbox" value="remember-me"> Lembrar senha.
+		          </label>
+		        </div>
+		        <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+		      </form>
+
+		    </div> <!-- /container -->
 			<script src="assets/css/boostrap.min.js"></script>
 	</body>
 </html>
